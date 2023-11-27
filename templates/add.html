@@ -1,0 +1,11 @@
+<div class="col-6 p-5">
+    <div class="row-2">
+        <form>
+            <div class="mb-3">
+<!--                <label for="fruit_add" class="form-label">Fruits</label>-->
+                <input type="text" placeholder="Fruit" class="form-control" name="fruit" id="fruit_add">
+            </div>
+            <button hx-post="/addItem" hx-target="#ftable" hx-swap="innerHTML" type="submit" class="btn btn-primary">Add</button>
+        </form>
+    </div>
+</div>
